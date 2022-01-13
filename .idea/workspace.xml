@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2597f5b-5a3b-46b0-9915-e7a93045927a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/exception/SoldeInsuffisantException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/port/primary/HistoryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/port/secondary/OperationManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/usecases/HistoryManagementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/infra/adapter/primary/AppRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/infra/adapter/secondary/OperationManagementInMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domain/usescases/HistoryManagementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domain/usescases/HistoryOperationFixtures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/port/primary/SavingMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/port/primary/MoneyManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/port/secondary/AccountManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/port/secondary/AccountManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/usecases/MoneyCustomerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/usecases/MoneyManagementCustomerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/infra/adapter/secondary/AccountManagementInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/infra/adapter/secondary/AccountManagementInMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/usescases/AccountFixtures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/usescases/AccountFixtures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/usescases/SavingMoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/usescases/MoneyManagementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/model/Account$AccountBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/model/Account$AccountBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/model/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/port/primary/SavingMoney.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/port/secondary/AccountManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/port/secondary/AccountManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/usecases/MoneyCustomerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/infra/adapter/secondary/AccountManagementInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/infra/adapter/secondary/AccountManagementInMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/usescases/AccountFixtures.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/usescases/AccountFixtures.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/usescases/SavingMoneyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/ConfigurationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/ConfigurationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuration/ConfigurationApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configuration/ConfigurationApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/model/Customer$CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/model/Customer$CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/usecases/MoneyManagementCustomerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/usecases/MoneyManagementCustomerHandler.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="12" />
+  </component>
   <component name="ProjectId" id="23dWUPI0ALLVSCkVdaIubewFyXg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -65,20 +66,38 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.testRunning" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="domain.Exception" />
+      <recent name="infra.adapter.primary" />
+      <recent name="infra.adapter.secondary" />
+      <recent name="domain.port.secondary" />
       <recent name="domain.model" />
-      <recent name="" />
+      <recent name="domain.Exception" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoneyManagementTest.shouldThrowSoldeInsuffisantExceptionIfWithdrawIsSuperiorToAmountInAccount">
+  <component name="RunManager" selected="JUnit.All in BankAccountProjet">
     <configuration name="All in BankAccountProjet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankAccountProjet" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistoryManagementTest.shouldGetHistoryOfTheLastOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankAccountProjet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.usescases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain.usescases" />
+      <option name="MAIN_CLASS_NAME" value="domain.usescases.HistoryManagementTest" />
+      <option name="METHOD_NAME" value="shouldGetHistoryOfTheLastOperation" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,22 +113,6 @@
       <option name="PACKAGE_NAME" value="domain.usescases" />
       <option name="MAIN_CLASS_NAME" value="domain.usescases.MoneyManagementTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoneyManagementTest.shouldGetTenEurosIfAccountHad10EurosEnd10MoreIsDeposited" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BankAccountProjet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.usescases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain.usescases" />
-      <option name="MAIN_CLASS_NAME" value="domain.usescases.MoneyManagementTest" />
-      <option name="METHOD_NAME" value="shouldGetTenEurosIfAccountHad10EurosEnd10MoreIsDeposited" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,10 +152,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in BankAccountProjet" />
+        <item itemvalue="JUnit.HistoryManagementTest.shouldGetHistoryOfTheLastOperation" />
         <item itemvalue="JUnit.MoneyManagementTest.shouldThrowSoldeInsuffisantExceptionIfWithdrawIsSuperiorToAmountInAccount" />
         <item itemvalue="JUnit.MoneyManagementTest" />
         <item itemvalue="JUnit.MoneyManagementTest.shouldLeave0EurosIfAccountHad20EurosAnd10Iswithdrawed" />
-        <item itemvalue="JUnit.MoneyManagementTest.shouldGetTenEurosIfAccountHad10EurosEnd10MoreIsDeposited" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642064459024</updated>
-      <workItem from="1642064487226" duration="20916000" />
+      <workItem from="1642064487226" duration="26095000" />
     </task>
     <servers />
   </component>
@@ -174,30 +177,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1642099139660">
+    <state x="2472" y="178" key="#Project_Structure" timestamp="1642108347190">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642099139660" />
-    <state x="2610" y="296" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1642078669045">
+    <state x="2472" y="178" key="#Project_Structure/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642108347190" />
+    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1642108286562">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2610" y="296" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642078669045" />
+    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642108286562" />
+    <state x="2610" y="296" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1642108080263">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="296" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642108080263" />
     <state x="2676" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1642064663613">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2676" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642064663613" />
-    <state x="2611" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1642089063123">
+    <state x="2611" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1642104147796">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2611" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642089063123" />
+    <state x="2611" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642104147796" />
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642080390456">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642080390456" />
-    <state width="457" height="466" key="DebuggerActiveHint" timestamp="1642096224610">
+    <state width="509" height="466" key="DebuggerActiveHint" timestamp="1642106913007">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="457" height="466" key="DebuggerActiveHint/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642096224610" />
+    <state width="509" height="466" key="DebuggerActiveHint/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642106913007" />
     <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1642103589358">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -206,62 +213,61 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642086291970" />
-    <state width="1871" height="274" key="GridCell.Tab.0.bottom" timestamp="1642103310555">
+    <state width="1871" height="274" key="GridCell.Tab.0.bottom" timestamp="1642108815855">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1871" height="274" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642103310555" />
-    <state width="1871" height="274" key="GridCell.Tab.0.center" timestamp="1642103310555">
+    <state width="1871" height="274" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642108815855" />
+    <state width="1871" height="274" key="GridCell.Tab.0.center" timestamp="1642108815855">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1871" height="274" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642103310555" />
-    <state width="1871" height="274" key="GridCell.Tab.0.left" timestamp="1642103310555">
+    <state width="1871" height="274" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642108815855" />
+    <state width="1871" height="274" key="GridCell.Tab.0.left" timestamp="1642108815855">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1871" height="274" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642103310555" />
-    <state width="1871" height="274" key="GridCell.Tab.0.right" timestamp="1642103310555">
+    <state width="1871" height="274" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642108815855" />
+    <state width="1871" height="274" key="GridCell.Tab.0.right" timestamp="1642108815855">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1871" height="274" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642103310555" />
-    <state width="1871" height="335" key="GridCell.Tab.1.bottom" timestamp="1642096371392">
+    <state width="1871" height="274" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642108815855" />
+    <state width="1871" height="335" key="GridCell.Tab.1.bottom" timestamp="1642106934270">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1871" height="335" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642096371392" />
-    <state width="1871" height="335" key="GridCell.Tab.1.center" timestamp="1642096371392">
+    <state width="1871" height="335" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642106934270" />
+    <state width="1871" height="335" key="GridCell.Tab.1.center" timestamp="1642106934270">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1871" height="335" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642096371392" />
-    <state width="1871" height="335" key="GridCell.Tab.1.left" timestamp="1642096371392">
+    <state width="1871" height="335" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642106934270" />
+    <state width="1871" height="335" key="GridCell.Tab.1.left" timestamp="1642106934270">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1871" height="335" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642096371392" />
-    <state width="1871" height="335" key="GridCell.Tab.1.right" timestamp="1642096371392">
+    <state width="1871" height="335" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642106934270" />
+    <state width="1871" height="335" key="GridCell.Tab.1.right" timestamp="1642106934270">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1871" height="335" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642096371392" />
-    <state x="2695" y="454" key="ReplaceDuplicatesPrompt" timestamp="1642103488888">
+    <state width="1871" height="335" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642106934270" />
+    <state x="2695" y="454" key="ReplaceDuplicatesPrompt" timestamp="1642107641446">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2695" y="454" key="ReplaceDuplicatesPrompt/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642103488888" />
-    <state x="2360" y="94" key="SettingsEditor" timestamp="1642084133343">
+    <state x="2695" y="454" key="ReplaceDuplicatesPrompt/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642107641446" />
+    <state x="2360" y="94" key="SettingsEditor" timestamp="1642108802288">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2360" y="94" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642084133343" />
-    <state x="2610" y="275" width="540" height="496" key="extract.method.dialog" timestamp="1642103486954">
+    <state x="2360" y="94" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642108802288" />
+    <state x="2610" y="275" width="540" height="496" key="extract.method.dialog" timestamp="1642107639030">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2610" y="275" width="540" height="496" key="extract.method.dialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642103486954" />
-    <state x="2576" y="252" width="607" height="536" key="find.popup" timestamp="1642098272042">
+    <state x="2610" y="275" width="540" height="496" key="extract.method.dialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642107639030" />
+    <state x="2576" y="252" width="607" height="536" key="find.popup" timestamp="1642106167680">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2576" y="252" width="607" height="536" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642098272042" />
+    <state x="2576" y="252" width="607" height="536" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642106167680" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="accountManagement.getAmountByClient(2L)" language="JAVA" />
-        <watch expression="AccountFixtures.getCustomersWithAccount()" language="JAVA" />
-        <watch expression="isSoldeInsuffisant(amountWithdrawed, actualAmount)" language="JAVA" />
-        <watch expression="amountWithdrawed.compareTo(actualAmount)" language="JAVA" />
+        <watch expression="historyOperationFixtures.getOperation1()" language="JAVA" />
+        <watch expression="accountFixtures.getCustomer1().getId()" language="JAVA" />
+        <watch expression="historyOperationFixtures.getOperation3().getCustomerId()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

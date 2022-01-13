@@ -18,6 +18,14 @@ public class Customer {
         return account;
     }
 
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", account=" + account +
+                '}';
+    }
+
     public static class CustomerBuilder {
         private long id;
         private Account account;
