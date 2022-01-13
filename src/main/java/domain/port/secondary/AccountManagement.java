@@ -1,8 +1,12 @@
 package domain.port.secondary;
 
-import java.math.BigDecimal;
+import domain.model.Customer;
+
+import java.util.Optional;
 
 public interface AccountManagement {
-    BigDecimal addDepositMoneyToAccount(long customerId, BigDecimal amountOfMoneyToDeposit);
-    BigDecimal getNewAmountByClient(long customerId);
+
+    void updateCustomerWithNewAmount(Customer customerWithNewAmount);
+
+    Optional<Customer> getCustomerWithAccount(long customerId);
 }
